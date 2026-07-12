@@ -3,13 +3,13 @@
 	"id": "replaylite",
 	"version": "${version}",
 	"name": "ReplayLite",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A lightweight client-side replay and recording mod for Minecraft.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/TACOCAT-12/ReplayLite",
+		"sources": "https://github.com/TACOCAT-12/ReplayLite"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/replaylite/icon.png",
@@ -22,13 +22,6 @@
 			"com.replaylite.client.ReplayLiteClient"
 		]
 	},
-	"mixins": [
-		"replaylite.mixins.json",
-		{
-			"config": "replaylite.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~1.21.11",
